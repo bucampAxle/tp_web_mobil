@@ -34,7 +34,7 @@ tr :first-child{border:1px solid red;}
 
 table :first-child{border:1px solid red;}
 @media 
-(max-width: 900px;){
+(max-width: 900px){
 
 td{
 	display:block;
