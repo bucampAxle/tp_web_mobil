@@ -23,6 +23,26 @@ img{
 	margin-left:25%;
 }
 
+tr{
+	display: block;
+	border:1px solid black;
+}
+td{
+	border:1px solid black;
+}
+tr :first-child{border:1px solid red;}
+
+table :first-child{border:1px solid red;}
+@media 
+(max-width: 900px;){
+
+td{
+	display:block;
+	border:1px solid black;
+}
+
+}
+
 
 @media 
 (-webkit-min-device-pixel-ratio: 2), 
